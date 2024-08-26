@@ -1,0 +1,41 @@
+@import url("paleta.css");
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    /* background-color: #5870db; */
+    /* background-image: linear-gradient(0deg, #022B3A, #484D6D); */
+    /* background-image: linear-gradient(0deg, #22223b, #4a4e69); */
+    background-image: url('./images/fundo.jpg');
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#quadro {
+    width: 60%;
+    background-color: var(--cor1);
+    color: white;
+    padding: 1.5em;
+    
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+    border-radius: .5em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.273);
+}
+
+#quadro p {
+    text-indent: 1em;
+    text-align: justify;
+}
+
+#quadro h1 {
+    text-align: center;
+}

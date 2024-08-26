@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor1: #42999b;
+    --cor2: #edf6f9;
+    --cor3: #83c5be;
+    --cor4: #ffffff;
+    --cor5: #ffddd2;
+    --cor6: #e29578;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#site {
+    display: grid;
+    grid-template-areas: 
+        "topo topo topo"
+        "menu_h menu_h menu_h"
+        "menu_v principal publicidade"
+        "rodape rodape rodape"
+    ;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#topo {
+    /* background-color: var(--cor1); */
+    background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+    grid-area: topo;
+    height: 100px;
+}
+
+#menu_h {
+    background-color: var(--cor3);
+    grid-area: menu_h;
+    padding: 15px 10px;
+}
+
+#menu_v {
+    background-color: var(--cor2);
+    grid-area: menu_v;
+    width: 250px;
+}
+
+
+#principal {
+    background-color: var(--cor4);
+    grid-area: principal;
+    width: 600px;
+    padding: 15px;
+    text-align: justify;
+}
+
+#publicidade {
+    background-color: var(--cor5);
+    grid-area: publicidade;
+    width: 150px;
+}
+
+#rodape {
+    background-color: var(--cor6);
+    grid-area: rodape;
+    height: 60px;
+}
+
+#topo h1 {
+    font-weight: 400;
+}

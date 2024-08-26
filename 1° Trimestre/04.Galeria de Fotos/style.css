@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    background-color: #d4a373;
+}
+
+#galeria {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#big {
+    background-color: #faedcd;
+    border: 3px solid #e9edc9;
+    padding: 30px;
+
+    text-align: center;
+}
+
+#big img {
+    width: 100%;
+    max-width: 400px;
+}
+
+#mini {
+    background-color: #ccd5ae;
+    border: 3px solid #e9edc9;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.miniatura {
+    background-color: #e9edc9;
+    padding: 10px;
+    transition-duration: 300ms;
+}
+
+.miniatura img {
+    width: 100%;
+    filter: blur(10px);
+}
+
+.miniatura:hover {
+    padding: 0;
+}
+
+.miniatura img:hover {
+    filter: blur(0px);
+    transition-duration: 300ms;
+}

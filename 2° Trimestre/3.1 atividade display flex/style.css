@@ -1,0 +1,52 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#root {
+
+    width: 450px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#header {
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #588157;
+
+}
+
+#main {
+
+    flex-grow: 1;
+    background-color: #dad7cd;
+
+}
+
+#footer {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #a3b18a;
+
+}
+
+.item {
+
+    margin: 5px;
+    background-color: #588157;
+    width: 100%;
+    
+
+}

@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    background-color: cornflowerblue;
+    width: 450px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    background-color: darksalmon;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meio {
+    background-color: chocolate;
+    flex-grow: 1;
+}
+
+.baixo {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.baixo .icone {
+    background-color: #ffcc00;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5pxs;
+}

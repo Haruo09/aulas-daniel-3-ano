@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #142f43;
+}
+
+.container {
+    background-color: #4c6895;
+    width: 50vh;
+    height: 50vh;
+    margin: 25vh auto;
+    padding: 0.5em;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    /* Eixo principal */
+    /* flex-start, flex-end, center, space-between, space-around, space-evenly  */
+    justify-content: space-between;
+    
+    /* Eixo secundário */
+    /* flex-start, flex-end, center, stretch */
+    align-items: stretch;
+
+}
+.item {
+    background-color: #9bc4f5;
+    margin: 0.5em;
+    padding: .5em;
+}
